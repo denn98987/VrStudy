@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="725eaf4f-35f5-4e9b-9a32-9f97dac3c083" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/DB/Requests/AccountManage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/DB/Requests/GroupsManage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/DB/Requests/StudentsManage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/DelegateCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Exceptions/AuthoriseException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Model/AccountDescription.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Model/AccountModerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Model/Group.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Model/Groups.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Model/IIdentifiable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Model/IListItems.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Model/Student.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Model/Students.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Navigator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Old/ItemStudentsMarks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Old/StudentsMarksCollection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Old/StudentsOld.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/Old/StudentsOld.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/View/CommonPage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/View/LoginPage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/View/StartPage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/ViewModel/CommonPViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/ViewModel/LoginViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/ViewModel/StartViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/ViewModel/ViewModelBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/bin/Debug/vrstud.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/bin/Debug/vrstud.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/bin/Debug/vrstud.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/App.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/App.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/GeneratedInternalTypeHelper.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/LogIn.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/MainWindowLoggined.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/MainWindowUnLogin.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/Students.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.Properties.Resources.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.g.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud_Content.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud_Content.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud_MarkupCompile.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud_MarkupCompile.lref" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vrstud/test/ItemToDo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/App.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/Link.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/Link.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/LogIn.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/LogIn.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/LogIn.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/LogIn.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/MainWindowLoggined.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/MainWindowLoggined.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/MainWindowLoggined.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/MainWindowLoggined.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/MainWindowUnLogin.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/MainWindowUnLogin.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/MainWindowUnLogin.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/MainWindowUnLogin.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/Students.xaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/Students.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/ToDoItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/ToDoItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/VRManaging.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/VRManaging.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/VRManaging.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/VRManaging.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrstud/vrstud.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/vrstud.csproj" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="vrstud" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vrstud/View/CommonPage.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+              <folding>
+                <marker date="1579182949366" expanded="true" signature="0:6489" ph="&lt;&lt;Page.Resources&gt;&#10;        &lt;Style x:Key=&quot;GroupBorder&quot; TargetType=&quot;Border&quot;&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;5&quot; /&gt;&#10;            &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;Black&quot; /&gt;&#10;            &lt;Setter Property=&quot;MinHeight&quot; Value=&quot;144&quot; /&gt;&#10;            &lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;15&quot; /&gt;&#10;            &lt;Setter Property=&quot;HorizontalAlignment&quot; Value=&quot;Left&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Top&quot; /&gt;&#10;            &lt;Setter Property=&quot;Margin&quot; Value=&quot;10&quot; /&gt;&#10;            &lt;Setter Property=&quot;MinWidth&quot; Value=&quot;150&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;Btn&quot; TargetType=&quot;Button&quot;&gt;&#10;            &lt;Setter Property=&quot;MaxWidth&quot; Value=&quot;359&quot; /&gt;&#10;            &lt;Setter Property=&quot;Height&quot; Value=&quot;47&quot; /&gt;&#10;            &lt;Setter Property=&quot;Margin&quot; Value=&quot;5&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;DemiBold&quot; /&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt;&#10;            &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##E0E0E0&quot; /&gt;&#10;            &lt;Style.Triggers&gt;&#10;                &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;White&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot; /&gt;&#10;                &lt;/Trigger&gt;&#10;            &lt;/Style.Triggers&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;UnvailableBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##BDBDBD&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;GreenBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##219653&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;BlueBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##2F80ED&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;RedBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##EB5757&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;ListBox&quot; TargetType=&quot;ListBox&quot;&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;TextBlock&quot; TargetType=&quot;TextBlock&quot;&gt;&#10;            &lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;Bold&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Stretch&quot; /&gt;&#10;            &lt;Setter Property=&quot;TextWrapping&quot; Value=&quot;Wrap&quot; /&gt;&#10;            &lt;Setter Property=&quot;TextAlignment&quot; Value=&quot;Center&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Center&quot; /&gt;&#10;        &lt;/Style&gt;&#10;    &lt;/Page.Resources&gt; &lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;&#10;        &lt;Border Grid.Column=&quot;0&quot; Style=&quot;{StaticResource GroupBorder}&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;GroupsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;ГРУППЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;GroupsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt;&#10;&#10;        &lt;Border Grid.Column=&quot;1&quot; Style=&quot;{StaticResource GroupBorder}&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;SrudentsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;СТУДЕНТЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;StudentsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt;&#10;        &lt;Border Grid.Column=&quot;2&quot; Style=&quot;{StaticResource GroupBorder}&quot; BorderBrush=&quot;##219653&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;TeacherPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;100&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                    &lt;/Grid.RowDefinitions&gt;&#10;                    &lt;Label Content=&quot;Александров А. С.&quot; FontSize=&quot;16&quot; FontFamily=&quot;Roboto&quot;&#10;                           HorizontalContentAlignment=&quot;Left&quot; Grid.Row=&quot;0&quot; /&gt;&#10;                    &lt;TextBlock Text=&quot;Доцент кафедры микробиолгоии&quot; Style=&quot;{StaticResource TextBlock}&quot;&#10;                               Grid.Row=&quot;1&quot; /&gt;&#10;                    &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; Grid.Row=&quot;2&quot; /&gt;&#10;                    &lt;Button Content=&quot;ВЫХОД&quot; Style=&quot;{StaticResource RedBtn}&quot; Grid.Row=&quot;3&quot; /&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt;&#10;        &lt;Button Grid.Row=&quot;2&quot; Grid.Column=&quot;3&quot; Style=&quot;{StaticResource GreenBtn}&quot; Content=&quot;Запустить VR&quot; /&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="440:3512" ph="&lt;&lt;Style x:Key=&quot;GroupBorder&quot; TargetType=&quot;Border&quot;&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;5&quot; /&gt;&#10;            &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;Black&quot; /&gt;&#10;            &lt;Setter Property=&quot;MinHeight&quot; Value=&quot;144&quot; /&gt;&#10;            &lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;15&quot; /&gt;&#10;            &lt;Setter Property=&quot;HorizontalAlignment&quot; Value=&quot;Left&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Top&quot; /&gt;&#10;            &lt;Setter Property=&quot;Margin&quot; Value=&quot;10&quot; /&gt;&#10;            &lt;Setter Property=&quot;MinWidth&quot; Value=&quot;150&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;Btn&quot; TargetType=&quot;Button&quot;&gt;&#10;            &lt;Setter Property=&quot;MaxWidth&quot; Value=&quot;359&quot; /&gt;&#10;            &lt;Setter Property=&quot;Height&quot; Value=&quot;47&quot; /&gt;&#10;            &lt;Setter Property=&quot;Margin&quot; Value=&quot;5&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;DemiBold&quot; /&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt;&#10;            &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##E0E0E0&quot; /&gt;&#10;            &lt;Style.Triggers&gt;&#10;                &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;White&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot; /&gt;&#10;                &lt;/Trigger&gt;&#10;            &lt;/Style.Triggers&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;UnvailableBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##BDBDBD&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;GreenBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##219653&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;BlueBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##2F80ED&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;RedBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##EB5757&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;ListBox&quot; TargetType=&quot;ListBox&quot;&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;TextBlock&quot; TargetType=&quot;TextBlock&quot;&gt;&#10;            &lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;Bold&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Stretch&quot; /&gt;&#10;            &lt;Setter Property=&quot;TextWrapping&quot; Value=&quot;Wrap&quot; /&gt;&#10;            &lt;Setter Property=&quot;TextAlignment&quot; Value=&quot;Center&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Center&quot; /&gt;&#10;        &lt;/Style&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="465:1001" ph="&lt;&lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;5&quot; /&gt; &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;Black&quot; /&gt; &lt;Setter Property=&quot;MinHeight&quot; Value=&quot;144&quot; /&gt; &lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;15&quot; /&gt; &lt;Setter Property=&quot;HorizontalAlignment&quot; Value=&quot;Left&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Top&quot; /&gt; &lt;Setter Property=&quot;Margin&quot; Value=&quot;10&quot; /&gt; &lt;Setter Property=&quot;MinWidth&quot; Value=&quot;150&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="1010:2005" ph="&lt;&lt;Setter Property=&quot;MaxWidth&quot; Value=&quot;359&quot; /&gt; &lt;Setter Property=&quot;Height&quot; Value=&quot;47&quot; /&gt; &lt;Setter Property=&quot;Margin&quot; Value=&quot;5&quot; /&gt; &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt; &lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt; &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;DemiBold&quot; /&gt; &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##E0E0E0&quot; /&gt; &lt;Style.Triggers&gt;&#10;                &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;White&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot; /&gt;&#10;                &lt;/Trigger&gt;&#10;            &lt;/Style.Triggers&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="1517:1988" ph="&lt;&lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;White&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot; /&gt;&#10;                &lt;/Trigger&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="1550:1958" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;White&quot; /&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##219653&quot; /&gt; &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot; /&gt; &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##219653&quot; /&gt; &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="2014:2172" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##BDBDBD&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="2181:2401" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##219653&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="2410:2629" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##2F80ED&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="2638:2856" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##EB5757&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="2865:2986" ph="&lt;&lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="2995:3490" ph="&lt;&lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt; &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt; &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;Bold&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Stretch&quot; /&gt; &lt;Setter Property=&quot;TextWrapping&quot; Value=&quot;Wrap&quot; /&gt; &lt;Setter Property=&quot;TextAlignment&quot; Value=&quot;Center&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Center&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="3518:6481" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;Border Grid.Column=&quot;0&quot; Style=&quot;{StaticResource GroupBorder}&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;GroupsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;ГРУППЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;GroupsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt; &lt;Border Grid.Column=&quot;1&quot; Style=&quot;{StaticResource GroupBorder}&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;SrudentsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;СТУДЕНТЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;StudentsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt; &lt;Border Grid.Column=&quot;2&quot; Style=&quot;{StaticResource GroupBorder}&quot; BorderBrush=&quot;##219653&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;TeacherPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;100&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                    &lt;/Grid.RowDefinitions&gt;&#10;                    &lt;Label Content=&quot;Александров А. С.&quot; FontSize=&quot;16&quot; FontFamily=&quot;Roboto&quot;&#10;                           HorizontalContentAlignment=&quot;Left&quot; Grid.Row=&quot;0&quot; /&gt;&#10;                    &lt;TextBlock Text=&quot;Доцент кафедры микробиолгоии&quot; Style=&quot;{StaticResource TextBlock}&quot;&#10;                               Grid.Row=&quot;1&quot; /&gt;&#10;                    &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; Grid.Row=&quot;2&quot; /&gt;&#10;                    &lt;Button Content=&quot;ВЫХОД&quot; Style=&quot;{StaticResource RedBtn}&quot; Grid.Row=&quot;3&quot; /&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt; &lt;Button Grid.Row=&quot;2&quot; Grid.Column=&quot;3&quot; Style=&quot;{StaticResource GreenBtn}&quot; Content=&quot;Запустить VR&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="3533:3720" ph="&lt;&lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="3729:3864" ph="&lt;&lt;RowDefinition Height=&quot;2*&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="3874:4461" ph="&lt;&lt;StackPanel x:Name=&quot;GroupsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;ГРУППЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;GroupsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="3948:4443" ph="&lt;&lt;Label Content=&quot;ГРУППЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt; &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;GroupsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt; &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt; &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="4122:4258" ph="&lt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="4471:5321" ph="&lt;&lt;StackPanel x:Name=&quot;SrudentsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;СТУДЕНТЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;StudentsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="4545:5303" ph="&lt;&lt;Label Content=&quot;СТУДЕНТЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt; &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;StudentsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt; &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt; &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="4723:5118" ph="&lt;&lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="4839:5091" ph="&lt;&lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="4886:5047" ph="&lt;&lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="5330:6364" ph="&lt;&lt;StackPanel x:Name=&quot;TeacherPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;100&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                    &lt;/Grid.RowDefinitions&gt;&#10;                    &lt;Label Content=&quot;Александров А. С.&quot; FontSize=&quot;16&quot; FontFamily=&quot;Roboto&quot;&#10;                           HorizontalContentAlignment=&quot;Left&quot; Grid.Row=&quot;0&quot; /&gt;&#10;                    &lt;TextBlock Text=&quot;Доцент кафедры микробиолгоии&quot; Style=&quot;{StaticResource TextBlock}&quot;&#10;                               Grid.Row=&quot;1&quot; /&gt;&#10;                    &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; Grid.Row=&quot;2&quot; /&gt;&#10;                    &lt;Button Content=&quot;ВЫХОД&quot; Style=&quot;{StaticResource RedBtn}&quot; Grid.Row=&quot;3&quot; /&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/StackPanel&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="5426:6346" ph="&lt;&lt;Grid&gt;&#10;                    &lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;100&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                    &lt;/Grid.RowDefinitions&gt;&#10;                    &lt;Label Content=&quot;Александров А. С.&quot; FontSize=&quot;16&quot; FontFamily=&quot;Roboto&quot;&#10;                           HorizontalContentAlignment=&quot;Left&quot; Grid.Row=&quot;0&quot; /&gt;&#10;                    &lt;TextBlock Text=&quot;Доцент кафедры микробиолгоии&quot; Style=&quot;{StaticResource TextBlock}&quot;&#10;                               Grid.Row=&quot;1&quot; /&gt;&#10;                    &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; Grid.Row=&quot;2&quot; /&gt;&#10;                    &lt;Button Content=&quot;ВЫХОД&quot; Style=&quot;{StaticResource RedBtn}&quot; Grid.Row=&quot;3&quot; /&gt;&#10;                &lt;/Grid&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="5488:6320" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;100&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                    &lt;/Grid.RowDefinitions&gt; &lt;Label Content=&quot;Александров А. С.&quot; FontSize=&quot;16&quot; FontFamily=&quot;Roboto&quot;&#10;                           HorizontalContentAlignment=&quot;Left&quot; Grid.Row=&quot;0&quot; /&gt; &lt;TextBlock Text=&quot;Доцент кафедры микробиолгоии&quot; Style=&quot;{StaticResource TextBlock}&quot;&#10;                               Grid.Row=&quot;1&quot; /&gt; &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; Grid.Row=&quot;2&quot; /&gt; &lt;Button Content=&quot;ВЫХОД&quot; Style=&quot;{StaticResource RedBtn}&quot; Grid.Row=&quot;3&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="5515:5793" ph="&lt;&lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;100&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="5814:5959" ph="&lt;.../&gt;" />
+                <marker date="1579182949366" expanded="true" signature="5980:6108" ph="&lt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vrstud/View/CommonPage.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <marker date="1579183170308" expanded="true" signature="53:417" ph="{...}" />
+                <marker date="1579183170308" expanded="true" signature="98:415" ph="{...}" />
+                <marker date="1579183170308" expanded="true" signature="201:409" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vrstud/ViewModel/CommonPViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <marker date="1578847150463" expanded="true" signature="55:578" ph="{...}" />
+                <marker date="1578847150463" expanded="true" signature="107:576" ph="{...}" />
+                <marker date="1578847150463" expanded="true" signature="147:381" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vrstud/Model/AccountModerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+              <folding>
+                <marker date="1579183674338" expanded="false" signature="6:30" ph="..." />
+                <marker date="1579183674338" expanded="true" signature="48:1024" ph="{...}" />
+                <marker date="1579183674338" expanded="true" signature="91:1022" ph="{...}" />
+                <marker date="1579183674338" expanded="true" signature="294:634" ph="{...}" />
+                <marker date="1579183674338" expanded="true" signature="681:738" ph="{...}" />
+                <marker date="1579183674338" expanded="true" signature="779:831" ph="{...}" />
+                <marker date="1579183674338" expanded="true" signature="887:1016" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/vrstud/Model/IListItems.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Model/IIdentifiable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/Page1.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Model/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/Page1.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Model/Students.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Exceptions/AuthoriseException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/View/LoginPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/View/LoginPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/DB/Requests/GroupsManage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/MainWindowUnLogin.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/PageWrap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/ViewModel/StartViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/MainWindowUnLogin.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Model/Group.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Model/Groups.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/ItemLink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/ItemLink1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/RelayCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/BaseModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/ItemToDo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/ViewModelBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/DelegateComand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01B60F1D-E92C-48E6-8F1A-412F1E1120F2/53/9b761749/ResourcePart.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/VRManaging.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/VRManaging.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/Window1.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/View/CommonPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/ViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/ViewModel/CommonPViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/StudentsMarksCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/ItemStudentsMarks.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/View/CommonPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/Window1.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/Window1.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/Items.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/LogIn.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/StudentsOld.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/Window1.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/StudentsOld.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/DB/Requests/AccountManage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/MainWindowLoggined.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/MainWindowLoggined.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/ViewModel/LoginViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/DB/Requests/StudentsManage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/View/StartPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Model/AccountModerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/Page2.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/8e/29958437/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/Page2.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Navigator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/Window2.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/test/test2/Window2.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/LogIn.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/ad/e4078c1e/ObservableCollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/View/StartPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/ViewModel/ViewModelBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/DelegateCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/Link.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Old/ToDoItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/obj/Debug/App.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vrstud/Model/AccountDescription.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vrstud/test/DelegateComand.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/ItemLink.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/ItemToDo.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/ViewModel.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/Window1.xaml" />
+        <option value="$PROJECT_DIR$/vrstud/test/Window1.xaml.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/BaseModel.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/RelayCommand.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/Items.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/ItemLink.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/Item.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/Window2.xaml.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/Window2.xaml" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/PageWrap.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/Page2.xaml" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/Page2.xaml.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/Page1.xaml" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/Window1.xaml" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/Window1.xaml.cs" />
+        <option value="$PROJECT_DIR$/vrstud/test/test2/Page1.xaml.cs" />
+        <option value="$PROJECT_DIR$/vrstud/App.xaml" />
+        <option value="$PROJECT_DIR$/vrstud/ViewModel/ViewModelBase.cs" />
+        <option value="$PROJECT_DIR$/vrstud/DelegateCommand.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Exceptions/AuthoriseException.cs" />
+        <option value="$PROJECT_DIR$/vrstud/ViewModel/LoginViwModel.cs" />
+        <option value="$PROJECT_DIR$/vrstud/ViewModel/StartViewModel.cs" />
+        <option value="$PROJECT_DIR$/vrstud/View/StartPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/vrstud/View/StartPage.xaml" />
+        <option value="$PROJECT_DIR$/vrstud/View/LoginPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/vrstud/View/LoginPage.xaml" />
+        <option value="$PROJECT_DIR$/vrstud/DB/Requests/ManagingAccount.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Navigator.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Old/StudentsOld.xaml.cs" />
+        <option value="$PROJECT_DIR$/vrstud/MainWindowLoggined.xaml.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Model/IItem.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Model/Group.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Model/IListItems.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Model/IIidentifiable.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Model/Groups.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Model/ModerateAccount.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Model/AccountModerating.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Model/AccountDescription.cs" />
+        <option value="$PROJECT_DIR$/vrstud/ViewModel/CommonPViewModel.cs" />
+        <option value="$PROJECT_DIR$/vrstud/DB/Requests/GroupsManage.cs" />
+        <option value="$PROJECT_DIR$/vrstud/DB/Requests/StudentsManage.cs" />
+        <option value="$PROJECT_DIR$/vrstud/ViewModel/LoginViewModel.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Model/Students.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Model/Student.cs" />
+        <option value="$PROJECT_DIR$/vrstud/View/CommonPage.xaml" />
+        <option value="$PROJECT_DIR$/vrstud/View/CommonPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/vrstud/Model/AccountModerator.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="72" />
+    <option name="y" value="20" />
+    <option name="width" value="1284" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="vrstud" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="vrstud" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="vrstud" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="vrstud" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="vrstud" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="model" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vrstud/img" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/vrstud/bin/Debug/vrstud.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vrstud/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/vrstud/vrstud.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="725eaf4f-35f5-4e9b-9a32-9f97dac3c083" name="Default Changelist" comment="" />
+      <created>1575305505602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575305505602</updated>
+      <workItem from="1575305660085" duration="7374000" />
+      <workItem from="1575906931401" duration="1805000" />
+      <workItem from="1576045417094" duration="12673000" />
+      <workItem from="1576155584302" duration="3976000" />
+      <workItem from="1576217981858" duration="5978000" />
+      <workItem from="1576303362991" duration="1939000" />
+      <workItem from="1576306503030" duration="5496000" />
+      <workItem from="1576585280420" duration="12569000" />
+      <workItem from="1576681879027" duration="3135000" />
+      <workItem from="1576862403066" duration="1341000" />
+      <workItem from="1576939873435" duration="2465000" />
+      <workItem from="1577006133859" duration="3974000" />
+      <workItem from="1577371114786" duration="1861000" />
+      <workItem from="1577437999198" duration="2176000" />
+      <workItem from="1577524898139" duration="1271000" />
+      <workItem from="1577557102532" duration="1706000" />
+      <workItem from="1577623694569" duration="2747000" />
+      <workItem from="1577712828253" duration="7165000" />
+      <workItem from="1577889803903" duration="3247000" />
+      <workItem from="1577894376065" duration="1188000" />
+      <workItem from="1577950108576" duration="593000" />
+      <workItem from="1578337276347" duration="1095000" />
+      <workItem from="1578388481752" duration="7692000" />
+      <workItem from="1578470082137" duration="10103000" />
+      <workItem from="1578554838647" duration="1540000" />
+      <workItem from="1578557182008" duration="8785000" />
+      <workItem from="1578736167349" duration="7379000" />
+      <workItem from="1578834420963" duration="9576000" />
+      <workItem from="1579176865650" duration="5630000" />
+    </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1576226147322</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576226147322</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="136479000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924812" visible="true" weight="0.27914354" />
+      <window_info id="Structure" order="1" sideWeight="0.50075185" side_tool="true" weight="0.27438542" />
+      <window_info id="Favorites" order="2" sideWeight="0.50075185" side_tool="true" weight="0.27438542" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920633" visible="true" weight="0.3263158" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39849624" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32882884" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32781956" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32882884" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32932332" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" x="213" y="220" width="848" height="382" id="XAML Preview" order="12" type="FLOATING" weight="0.518018" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.32882884" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32882884" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50079364" side_tool="true" weight="0.3263158" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.3263158" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/vrstud/ViewModel/CommonPViewModel.cs</url>
+          <line>8</line>
+          <properties documentPath="$PROJECT_DIR$/vrstud/ViewModel/CommonPViewModel.cs" initialLine="8">
+            <startOffsets>
+              <option value="170" />
+            </startOffsets>
+            <endOffsets>
+              <option value="236" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vrstud/Old/Link.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/test2/Window2.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <marker date="1578337696813" expanded="true" signature="94:186" ph="{...}" />
+            <marker date="1578337696813" expanded="true" signature="125:180" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/test2/Window2.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/test2/ItemLink.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/test2/Window1.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <marker date="1578842954300" expanded="true" signature="6:123" ph="..." />
+            <marker date="1578842954300" expanded="true" signature="196:1009" ph="{...}" />
+            <marker date="1578842954300" expanded="true" signature="371:726" ph="{...}" />
+            <marker date="1578842954300" expanded="true" signature="480:650" ph="{...}" />
+            <marker date="1578842954300" expanded="true" signature="798:818" ph="{...}" />
+            <marker date="1578842954300" expanded="true" signature="886:1003" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Old/MainWindowUnLogin.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/test2/Page2.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <marker date="1578389660054" expanded="false" signature="6:52" ph="..." />
+            <marker date="1578389660054" expanded="true" signature="121:341" ph="{...}" />
+            <marker date="1578389660054" expanded="true" signature="150:205" ph="{...}" />
+            <marker date="1578389660054" expanded="true" signature="280:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/test2/Page2.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/ViewModelBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/test2/Window1.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/DelegateComand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/DelegateCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/test2/PageWrap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <marker date="1578389660023" expanded="true" signature="6:97" ph="..." />
+            <marker date="1578389660023" expanded="true" signature="161:354" ph="{...}" />
+            <marker date="1578389660023" expanded="true" signature="289:348" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Exceptions/AuthoriseException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Old/LogIn.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="48" column="11" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/View/StartPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/packages.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/Window1.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/Window1.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/View/LoginPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/View/LoginPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="51" column="64" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Navigator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Old/MainWindowLoggined.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="127" column="11" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="127" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/View/StartPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="87" column="126" selection-start-line="87" selection-start-column="126" selection-end-line="87" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/ViewModel/ViewModelBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/ViewModel/StartViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/DB/Requests/AccountManage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <marker date="1578581754731" expanded="true" signature="69:642" ph="{...}" />
+            <marker date="1578581754731" expanded="true" signature="122:167" ph="{...}" />
+            <marker date="1578581754731" expanded="true" signature="218:263" ph="{...}" />
+            <marker date="1578581754731" expanded="true" signature="308:377" ph="{...}" />
+            <marker date="1578581754731" expanded="true" signature="429:498" ph="{...}" />
+            <marker date="1578581754731" expanded="true" signature="567:636" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Old/StudentsOld.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <marker date="1578838757229" expanded="true" signature="6:55" ph="..." />
+            <marker date="1578838757229" expanded="true" signature="73:547" ph="{...}" />
+            <marker date="1578838757229" expanded="true" signature="121:545" ph="{...}" />
+            <marker date="1578838757229" expanded="true" signature="156:539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Old/MainWindowLoggined.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <marker date="1578842954831" expanded="true" signature="6:55" ph="..." />
+            <marker date="1578842954831" expanded="true" signature="73:1426" ph="{...}" />
+            <marker date="1578842954831" expanded="true" signature="128:1424" ph="{...}" />
+            <marker date="1578842954831" expanded="true" signature="170:335" ph="{...}" />
+            <marker date="1578842954831" expanded="true" signature="433:674" ph="{...}" />
+            <marker date="1578842954831" expanded="true" signature="586:636" ph="{...}" />
+            <marker date="1578842954831" expanded="true" signature="723:809" ph="{...}" />
+            <marker date="1578842954831" expanded="true" signature="858:1101" ph="{...}" />
+            <marker date="1578842954831" expanded="true" signature="1013:1063" ph="{...}" />
+            <marker date="1578842954831" expanded="true" signature="1152:1259" ph="{...}" />
+            <marker date="1578842954831" expanded="true" signature="1331:1418" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Model/IListItems.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <marker date="1578843437883" expanded="true" signature="51:137" ph="{...}" />
+            <marker date="1578843437883" expanded="true" signature="85:135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Model/IIdentifiable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding>
+            <marker date="1578843549590" expanded="true" signature="16:97" ph="{...}" />
+            <marker date="1578843549590" expanded="true" signature="53:95" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Model/Group.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding>
+            <marker date="1578843522733" expanded="true" signature="16:150" ph="{...}" />
+            <marker date="1578843522733" expanded="true" signature="57:148" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/ViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <folding>
+            <marker date="1578843103539" expanded="true" signature="6:71" ph="..." />
+            <marker date="1578843103539" expanded="true" signature="94:2170" ph="{...}" />
+            <marker date="1578843103539" expanded="true" signature="139:2168" ph="{...}" />
+            <marker date="1578843103539" expanded="true" signature="192:275" ph="{...}" />
+            <marker date="1578843103539" expanded="true" signature="341:2162" ph="/* private DelegateCommand _removeCommand; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/ViewModel/LoginViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding>
+            <marker date="1579180291523" expanded="false" signature="6:82" ph="..." />
+            <marker date="1579180291523" expanded="true" signature="100:1321" ph="{...}" />
+            <marker date="1579180291523" expanded="true" signature="150:1319" ph="{...}" />
+            <marker date="1579180291523" expanded="true" signature="307:388" ph="{...}" />
+            <marker date="1579180291523" expanded="true" signature="421:527" ph="{...}" />
+            <marker date="1579180291523" expanded="true" signature="577:681" ph="{...}" />
+            <marker date="1579180291523" expanded="true" signature="777:1211" ph="{...}" />
+            <marker date="1579180291523" expanded="true" signature="803:896" ph="{...}" />
+            <marker date="1579180291523" expanded="true" signature="937:1103" ph="{...}" />
+            <marker date="1579180291523" expanded="true" signature="1268:1313" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2ECD3F11-D027-42CB-A32F-58723999A994/8e/29958437/ThrowHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Model/Groups.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <marker date="1578846747018" expanded="true" signature="6:69" ph="..." />
+            <marker date="1578846747018" expanded="true" signature="87:474" ph="{...}" />
+            <marker date="1578846747018" expanded="true" signature="113:472" ph="{...}" />
+            <marker date="1578846747018" expanded="true" signature="143:284" ph="{...}" />
+            <marker date="1578846747018" expanded="true" signature="377:466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/ad/e4078c1e/ObservableCollection`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/DB/Requests/GroupsManage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <marker date="1579178801016" expanded="true" signature="6:47" ph="..." />
+            <marker date="1579178801016" expanded="true" signature="68:691" ph="{...}" />
+            <marker date="1579178801016" expanded="true" signature="100:612" ph="{...}" />
+            <marker date="1579178801016" expanded="true" signature="162:549" ph="{...}" />
+            <marker date="1579178801016" expanded="true" signature="248:539" ph="ChangeItWithDBRequests" />
+            <marker date="1579178801016" expanded="true" signature="329:514" ph="{...}" />
+            <marker date="1579178801016" expanded="true" signature="632:689" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/DB/Requests/StudentsManage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <marker date="1579179289540" expanded="true" signature="6:47" ph="..." />
+            <marker date="1579179289540" expanded="true" signature="68:1269" ph="{...}" />
+            <marker date="1579179289540" expanded="true" signature="102:1267" ph="{...}" />
+            <marker date="1579179289540" expanded="true" signature="180:1200" ph="{...}" />
+            <marker date="1579179289540" expanded="true" signature="265:1190" ph="ChangeItWithDBRequests" />
+            <marker date="1579179289540" expanded="true" signature="350:1153" ph="{...}" />
+            <marker date="1579179289540" expanded="true" signature="396:613" ph="{...}" />
+            <marker date="1579179289540" expanded="true" signature="659:874" ph="{...}" />
+            <marker date="1579179289540" expanded="true" signature="920:1139" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Model/Student.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <marker date="1579181175271" expanded="true" signature="16:533" ph="{...}" />
+            <marker date="1579181175271" expanded="true" signature="59:531" ph="{...}" />
+            <marker date="1579181175271" expanded="true" signature="391:525" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Model/AccountDescription.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding>
+            <marker date="1578846996244" expanded="true" signature="16:301" ph="{...}" />
+            <marker date="1578846996244" expanded="true" signature="54:299" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Model/Students.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
+          <folding>
+            <marker date="1579180975647" expanded="true" signature="6:69" ph="..." />
+            <marker date="1579180975647" expanded="true" signature="87:484" ph="{...}" />
+            <marker date="1579180975647" expanded="true" signature="115:482" ph="{...}" />
+            <marker date="1579180975647" expanded="true" signature="212:321" ph="{...}" />
+            <marker date="1579180975647" expanded="true" signature="366:476" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/test2/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <marker date="1578842954175" expanded="true" signature="27:146" ph="{...}" />
+            <marker date="1578842954175" expanded="true" signature="51:144" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/test2/Page1.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <marker date="1578843103586" expanded="true" signature="6:137" ph="..." />
+            <marker date="1578843103586" expanded="true" signature="166:1467" ph="{...}" />
+            <marker date="1578843103586" expanded="true" signature="206:1465" ph="{...}" />
+            <marker date="1578843103586" expanded="true" signature="412:822" ph="{...}" />
+            <marker date="1578843103586" expanded="true" signature="600:770" ph="{...}" />
+            <marker date="1578843103586" expanded="true" signature="889:1051" ph="{...}" />
+            <marker date="1578843103586" expanded="true" signature="1126:1254" ph="{...}" />
+            <marker date="1578843103586" expanded="true" signature="1325:1459" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/test/test2/Page1.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <marker date="1578843103555" expanded="true" signature="0:803" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;        &lt;ListBox Name=&quot;SthList&quot; SelectedValuePath=&quot;Id&quot; DisplayMemberPath=&quot;Title&quot; SelectionChanged=&quot;Cngh&quot; Grid.Row=&quot;0&quot; /&gt;&#10;        &lt;Button Click=&quot;ButtonBase_OnClick&quot; Grid.Row=&quot;1&quot;&gt;OOOOO&lt;/Button&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1578843103555" expanded="true" signature="442:795" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;ListBox Name=&quot;SthList&quot; SelectedValuePath=&quot;Id&quot; DisplayMemberPath=&quot;Title&quot; SelectionChanged=&quot;Cngh&quot; Grid.Row=&quot;0&quot; /&gt; &lt;Button Click=&quot;ButtonBase_OnClick&quot; Grid.Row=&quot;1&quot;&gt;OOOOO&lt;/Button&gt;.../&gt;" />
+            <marker date="1578843103555" expanded="true" signature="457:591" ph="&lt;&lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/View/CommonPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+          <folding>
+            <marker date="1579182949366" expanded="true" signature="0:6489" ph="&lt;&lt;Page.Resources&gt;&#10;        &lt;Style x:Key=&quot;GroupBorder&quot; TargetType=&quot;Border&quot;&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;5&quot; /&gt;&#10;            &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;Black&quot; /&gt;&#10;            &lt;Setter Property=&quot;MinHeight&quot; Value=&quot;144&quot; /&gt;&#10;            &lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;15&quot; /&gt;&#10;            &lt;Setter Property=&quot;HorizontalAlignment&quot; Value=&quot;Left&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Top&quot; /&gt;&#10;            &lt;Setter Property=&quot;Margin&quot; Value=&quot;10&quot; /&gt;&#10;            &lt;Setter Property=&quot;MinWidth&quot; Value=&quot;150&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;Btn&quot; TargetType=&quot;Button&quot;&gt;&#10;            &lt;Setter Property=&quot;MaxWidth&quot; Value=&quot;359&quot; /&gt;&#10;            &lt;Setter Property=&quot;Height&quot; Value=&quot;47&quot; /&gt;&#10;            &lt;Setter Property=&quot;Margin&quot; Value=&quot;5&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;DemiBold&quot; /&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt;&#10;            &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##E0E0E0&quot; /&gt;&#10;            &lt;Style.Triggers&gt;&#10;                &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;White&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot; /&gt;&#10;                &lt;/Trigger&gt;&#10;            &lt;/Style.Triggers&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;UnvailableBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##BDBDBD&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;GreenBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##219653&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;BlueBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##2F80ED&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;RedBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##EB5757&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;ListBox&quot; TargetType=&quot;ListBox&quot;&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;TextBlock&quot; TargetType=&quot;TextBlock&quot;&gt;&#10;            &lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;Bold&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Stretch&quot; /&gt;&#10;            &lt;Setter Property=&quot;TextWrapping&quot; Value=&quot;Wrap&quot; /&gt;&#10;            &lt;Setter Property=&quot;TextAlignment&quot; Value=&quot;Center&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Center&quot; /&gt;&#10;        &lt;/Style&gt;&#10;    &lt;/Page.Resources&gt; &lt;Grid&gt;&#10;        &lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;&#10;        &lt;Border Grid.Column=&quot;0&quot; Style=&quot;{StaticResource GroupBorder}&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;GroupsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;ГРУППЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;GroupsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt;&#10;&#10;        &lt;Border Grid.Column=&quot;1&quot; Style=&quot;{StaticResource GroupBorder}&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;SrudentsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;СТУДЕНТЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;StudentsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt;&#10;        &lt;Border Grid.Column=&quot;2&quot; Style=&quot;{StaticResource GroupBorder}&quot; BorderBrush=&quot;##219653&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;TeacherPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;100&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                    &lt;/Grid.RowDefinitions&gt;&#10;                    &lt;Label Content=&quot;Александров А. С.&quot; FontSize=&quot;16&quot; FontFamily=&quot;Roboto&quot;&#10;                           HorizontalContentAlignment=&quot;Left&quot; Grid.Row=&quot;0&quot; /&gt;&#10;                    &lt;TextBlock Text=&quot;Доцент кафедры микробиолгоии&quot; Style=&quot;{StaticResource TextBlock}&quot;&#10;                               Grid.Row=&quot;1&quot; /&gt;&#10;                    &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; Grid.Row=&quot;2&quot; /&gt;&#10;                    &lt;Button Content=&quot;ВЫХОД&quot; Style=&quot;{StaticResource RedBtn}&quot; Grid.Row=&quot;3&quot; /&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt;&#10;        &lt;Button Grid.Row=&quot;2&quot; Grid.Column=&quot;3&quot; Style=&quot;{StaticResource GreenBtn}&quot; Content=&quot;Запустить VR&quot; /&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="440:3512" ph="&lt;&lt;Style x:Key=&quot;GroupBorder&quot; TargetType=&quot;Border&quot;&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;5&quot; /&gt;&#10;            &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;Black&quot; /&gt;&#10;            &lt;Setter Property=&quot;MinHeight&quot; Value=&quot;144&quot; /&gt;&#10;            &lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;15&quot; /&gt;&#10;            &lt;Setter Property=&quot;HorizontalAlignment&quot; Value=&quot;Left&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Top&quot; /&gt;&#10;            &lt;Setter Property=&quot;Margin&quot; Value=&quot;10&quot; /&gt;&#10;            &lt;Setter Property=&quot;MinWidth&quot; Value=&quot;150&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;Btn&quot; TargetType=&quot;Button&quot;&gt;&#10;            &lt;Setter Property=&quot;MaxWidth&quot; Value=&quot;359&quot; /&gt;&#10;            &lt;Setter Property=&quot;Height&quot; Value=&quot;47&quot; /&gt;&#10;            &lt;Setter Property=&quot;Margin&quot; Value=&quot;5&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;DemiBold&quot; /&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt;&#10;            &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##E0E0E0&quot; /&gt;&#10;            &lt;Style.Triggers&gt;&#10;                &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;White&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot; /&gt;&#10;                &lt;/Trigger&gt;&#10;            &lt;/Style.Triggers&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;UnvailableBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##BDBDBD&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;GreenBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##219653&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;BlueBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##2F80ED&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;RedBtn&quot; TargetType=&quot;Button&quot; BasedOn=&quot;{StaticResource Btn}&quot;&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##EB5757&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;ListBox&quot; TargetType=&quot;ListBox&quot;&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;TextBlock&quot; TargetType=&quot;TextBlock&quot;&gt;&#10;            &lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt;&#10;            &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;Bold&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Stretch&quot; /&gt;&#10;            &lt;Setter Property=&quot;TextWrapping&quot; Value=&quot;Wrap&quot; /&gt;&#10;            &lt;Setter Property=&quot;TextAlignment&quot; Value=&quot;Center&quot; /&gt;&#10;            &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Center&quot; /&gt;&#10;        &lt;/Style&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="465:1001" ph="&lt;&lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;5&quot; /&gt; &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;Black&quot; /&gt; &lt;Setter Property=&quot;MinHeight&quot; Value=&quot;144&quot; /&gt; &lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;15&quot; /&gt; &lt;Setter Property=&quot;HorizontalAlignment&quot; Value=&quot;Left&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Top&quot; /&gt; &lt;Setter Property=&quot;Margin&quot; Value=&quot;10&quot; /&gt; &lt;Setter Property=&quot;MinWidth&quot; Value=&quot;150&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="1010:2005" ph="&lt;&lt;Setter Property=&quot;MaxWidth&quot; Value=&quot;359&quot; /&gt; &lt;Setter Property=&quot;Height&quot; Value=&quot;47&quot; /&gt; &lt;Setter Property=&quot;Margin&quot; Value=&quot;5&quot; /&gt; &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt; &lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt; &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;DemiBold&quot; /&gt; &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##E0E0E0&quot; /&gt; &lt;Style.Triggers&gt;&#10;                &lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;White&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot; /&gt;&#10;                &lt;/Trigger&gt;&#10;            &lt;/Style.Triggers&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="1517:1988" ph="&lt;&lt;Trigger Property=&quot;IsMouseOver&quot; Value=&quot;True&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;White&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot; /&gt;&#10;                    &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##219653&quot; /&gt;&#10;                    &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot; /&gt;&#10;                &lt;/Trigger&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="1550:1958" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;White&quot; /&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;##219653&quot; /&gt; &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot; /&gt; &lt;Setter Property=&quot;BorderBrush&quot; Value=&quot;##219653&quot; /&gt; &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="2014:2172" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##BDBDBD&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="2181:2401" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##219653&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="2410:2629" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##2F80ED&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="2638:2856" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;##EB5757&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Bottom&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="2865:2986" ph="&lt;&lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;0&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="2995:3490" ph="&lt;&lt;Setter Property=&quot;FontSize&quot; Value=&quot;18&quot; /&gt; &lt;Setter Property=&quot;FontFamily&quot; Value=&quot;Roboto&quot; /&gt; &lt;Setter Property=&quot;FontWeight&quot; Value=&quot;Bold&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Stretch&quot; /&gt; &lt;Setter Property=&quot;TextWrapping&quot; Value=&quot;Wrap&quot; /&gt; &lt;Setter Property=&quot;TextAlignment&quot; Value=&quot;Center&quot; /&gt; &lt;Setter Property=&quot;VerticalAlignment&quot; Value=&quot;Center&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="3518:6481" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;        &lt;/Grid.ColumnDefinitions&gt; &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;Border Grid.Column=&quot;0&quot; Style=&quot;{StaticResource GroupBorder}&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;GroupsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;ГРУППЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;GroupsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt; &lt;Border Grid.Column=&quot;1&quot; Style=&quot;{StaticResource GroupBorder}&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;SrudentsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;СТУДЕНТЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;StudentsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt; &lt;Border Grid.Column=&quot;2&quot; Style=&quot;{StaticResource GroupBorder}&quot; BorderBrush=&quot;##219653&quot;&gt;&#10;            &lt;StackPanel x:Name=&quot;TeacherPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;100&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                    &lt;/Grid.RowDefinitions&gt;&#10;                    &lt;Label Content=&quot;Александров А. С.&quot; FontSize=&quot;16&quot; FontFamily=&quot;Roboto&quot;&#10;                           HorizontalContentAlignment=&quot;Left&quot; Grid.Row=&quot;0&quot; /&gt;&#10;                    &lt;TextBlock Text=&quot;Доцент кафедры микробиолгоии&quot; Style=&quot;{StaticResource TextBlock}&quot;&#10;                               Grid.Row=&quot;1&quot; /&gt;&#10;                    &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; Grid.Row=&quot;2&quot; /&gt;&#10;                    &lt;Button Content=&quot;ВЫХОД&quot; Style=&quot;{StaticResource RedBtn}&quot; Grid.Row=&quot;3&quot; /&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/Border&gt; &lt;Button Grid.Row=&quot;2&quot; Grid.Column=&quot;3&quot; Style=&quot;{StaticResource GreenBtn}&quot; Content=&quot;Запустить VR&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="3533:3720" ph="&lt;&lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="3729:3864" ph="&lt;&lt;RowDefinition Height=&quot;2*&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="3874:4461" ph="&lt;&lt;StackPanel x:Name=&quot;GroupsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;ГРУППЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;GroupsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="3948:4443" ph="&lt;&lt;Label Content=&quot;ГРУППЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt; &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;GroupsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt; &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt; &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="4122:4258" ph="&lt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="4471:5321" ph="&lt;&lt;StackPanel x:Name=&quot;SrudentsPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Label Content=&quot;СТУДЕНТЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;StudentsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt;&#10;                &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt;&#10;                &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;&#10;            &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="4545:5303" ph="&lt;&lt;Label Content=&quot;СТУДЕНТЫ&quot; FontSize=&quot;24&quot; FontFamily=&quot;Roboto&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt; &lt;ListBox Style=&quot;{StaticResource ListBox}&quot; Name=&quot;StudentsList&quot;&gt;&#10;                    &lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;&#10;                &lt;/ListBox&gt; &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; /&gt; &lt;Button Content=&quot;ДОБАВИТЬ&quot; Style=&quot;{StaticResource GreenBtn}&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="4723:5118" ph="&lt;&lt;ListBox.ItemTemplate&gt;&#10;                        &lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;&#10;                    &lt;/ListBox.ItemTemplate&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="4839:5091" ph="&lt;&lt;DataTemplate&gt;&#10;                            &lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;&#10;                        &lt;/DataTemplate&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="4886:5047" ph="&lt;&lt;Label Content=&quot;{Binding Title}&quot; HorizontalContentAlignment=&quot;Center&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="5330:6364" ph="&lt;&lt;StackPanel x:Name=&quot;TeacherPanel&quot; Margin=&quot;5&quot;&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;100&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                    &lt;/Grid.RowDefinitions&gt;&#10;                    &lt;Label Content=&quot;Александров А. С.&quot; FontSize=&quot;16&quot; FontFamily=&quot;Roboto&quot;&#10;                           HorizontalContentAlignment=&quot;Left&quot; Grid.Row=&quot;0&quot; /&gt;&#10;                    &lt;TextBlock Text=&quot;Доцент кафедры микробиолгоии&quot; Style=&quot;{StaticResource TextBlock}&quot;&#10;                               Grid.Row=&quot;1&quot; /&gt;&#10;                    &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; Grid.Row=&quot;2&quot; /&gt;&#10;                    &lt;Button Content=&quot;ВЫХОД&quot; Style=&quot;{StaticResource RedBtn}&quot; Grid.Row=&quot;3&quot; /&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="5426:6346" ph="&lt;&lt;Grid&gt;&#10;                    &lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;100&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                    &lt;/Grid.RowDefinitions&gt;&#10;                    &lt;Label Content=&quot;Александров А. С.&quot; FontSize=&quot;16&quot; FontFamily=&quot;Roboto&quot;&#10;                           HorizontalContentAlignment=&quot;Left&quot; Grid.Row=&quot;0&quot; /&gt;&#10;                    &lt;TextBlock Text=&quot;Доцент кафедры микробиолгоии&quot; Style=&quot;{StaticResource TextBlock}&quot;&#10;                               Grid.Row=&quot;1&quot; /&gt;&#10;                    &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; Grid.Row=&quot;2&quot; /&gt;&#10;                    &lt;Button Content=&quot;ВЫХОД&quot; Style=&quot;{StaticResource RedBtn}&quot; Grid.Row=&quot;3&quot; /&gt;&#10;                &lt;/Grid&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="5488:6320" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;100&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                        &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;                    &lt;/Grid.RowDefinitions&gt; &lt;Label Content=&quot;Александров А. С.&quot; FontSize=&quot;16&quot; FontFamily=&quot;Roboto&quot;&#10;                           HorizontalContentAlignment=&quot;Left&quot; Grid.Row=&quot;0&quot; /&gt; &lt;TextBlock Text=&quot;Доцент кафедры микробиолгоии&quot; Style=&quot;{StaticResource TextBlock}&quot;&#10;                               Grid.Row=&quot;1&quot; /&gt; &lt;Button Content=&quot;ИЗМЕНИТЬ&quot; Style=&quot;{StaticResource BlueBtn}&quot; Grid.Row=&quot;2&quot; /&gt; &lt;Button Content=&quot;ВЫХОД&quot; Style=&quot;{StaticResource RedBtn}&quot; Grid.Row=&quot;3&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="5515:5793" ph="&lt;&lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;100&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="5814:5959" ph="&lt;.../&gt;" />
+            <marker date="1579182949366" expanded="true" signature="5980:6108" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/View/CommonPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1579183170308" expanded="true" signature="53:417" ph="{...}" />
+            <marker date="1579183170308" expanded="true" signature="98:415" ph="{...}" />
+            <marker date="1579183170308" expanded="true" signature="201:409" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Windows/Microsoft.NET/Framework/v4.0.30319/Microsoft.WinFx.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="267" column="17" selection-start-line="267" selection-start-column="17" selection-end-line="267" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/ViewModel/CommonPViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1578847150463" expanded="true" signature="55:578" ph="{...}" />
+            <marker date="1578847150463" expanded="true" signature="107:576" ph="{...}" />
+            <marker date="1578847150463" expanded="true" signature="147:381" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/Model/AccountModerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <marker date="1579183674338" expanded="false" signature="6:30" ph="..." />
+            <marker date="1579183674338" expanded="true" signature="48:1024" ph="{...}" />
+            <marker date="1579183674338" expanded="true" signature="91:1022" ph="{...}" />
+            <marker date="1579183674338" expanded="true" signature="294:634" ph="{...}" />
+            <marker date="1579183674338" expanded="true" signature="681:738" ph="{...}" />
+            <marker date="1579183674338" expanded="true" signature="779:831" ph="{...}" />
+            <marker date="1579183674338" expanded="true" signature="887:1016" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

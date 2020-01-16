@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\PropertyChanged.Fody.3.2.1\build\PropertyChanged.Fody.props" Condition="Exists('..\packages\PropertyChanged.Fody.3.2.1\build\PropertyChanged.Fody.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -34,6 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PropertyChanged, Version=3.2.1.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd">
+      <HintPath>..\packages\PropertyChanged.Fody.3.2.1\lib\net40\PropertyChanged.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -50,36 +55,100 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Link.cs" />
-    <Compile Include="Students.xaml.cs">
-      <DependentUpon>Students.xaml</DependentUpon>
+    <Compile Include="DB\Requests\AccountManage.cs" />
+    <Compile Include="DB\Requests\GroupsManage.cs" />
+    <Compile Include="DB\Requests\StudentsManage.cs" />
+    <Compile Include="DelegateCommand.cs" />
+    <Compile Include="Exceptions\AuthoriseException.cs" />
+    <Compile Include="model\AccountDescription.cs" />
+    <Compile Include="model\Group.cs" />
+    <Compile Include="model\Groups.cs" />
+    <Compile Include="model\IIdentifiable.cs" />
+    <Compile Include="model\IListItems.cs" />
+    <Compile Include="model\AccountModerator.cs" />
+    <Compile Include="model\Student.cs" />
+    <Compile Include="model\Students.cs" />
+    <Compile Include="Navigator.cs" />
+    <Compile Include="Old\ItemStudentsMarks.cs" />
+    <Compile Include="Old\Link.cs" />
+    <Compile Include="Old\LogIn.xaml.cs">
+      <DependentUpon>LogIn.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ToDoItem.cs" />
-    <Compile Include="VRManaging.xaml.cs">
+    <Compile Include="Old\MainWindowLoggined.xaml.cs">
+      <DependentUpon>MainWindowLoggined.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Old\MainWindowUnLogin.xaml.cs">
+      <DependentUpon>MainWindowUnLogin.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Old\StudentsOld.xaml.cs">
+      <DependentUpon>StudentsOld.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Old\StudentsMarksCollection.cs" />
+    <Compile Include="Old\ToDoItem.cs" />
+    <Compile Include="Old\VRManaging.xaml.cs">
       <DependentUpon>VRManaging.xaml</DependentUpon>
     </Compile>
-    <Page Include="LogIn.xaml" />
-    <Page Include="MainWindowLoggined.xaml" />
-    <Page Include="MainWindowUnLogin.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="test\DelegateComand.cs" />
+    <Compile Include="test\ItemLink1.cs" />
+    <Compile Include="test\ItemToDo.cs" />
+    <Compile Include="test\test2\BaseModel.cs" />
+    <Compile Include="test\test2\Item.cs" />
+    <Compile Include="test\test2\ItemLink.cs" />
+    <Compile Include="test\test2\Items.cs" />
+    <Compile Include="test\test2\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="test\test2\Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="test\test2\PageWrap.cs" />
+    <Compile Include="test\test2\RelayCommand.cs" />
+    <Compile Include="test\test2\Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="test\test2\Window2.xaml.cs">
+      <DependentUpon>Window2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="test\ViewModel.cs" />
+    <Compile Include="test\ViewModelBase.cs" />
+    <Compile Include="test\Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\CommonPViewModel.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="ViewModel\StartViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="View\CommonPage.xaml.cs">
+      <DependentUpon>CommonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LogIn.xaml.cs">
-      <DependentUpon>LogIn.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MainWindowLoggined.xaml.cs">
-      <DependentUpon>MainWindowLoggined.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MainWindowUnLogin.xaml.cs">
-      <DependentUpon>MainWindowUnLogin.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Page Include="Students.xaml" />
-    <Page Include="VRManaging.xaml" />
+    <Page Include="Old\LogIn.xaml" />
+    <Page Include="Old\MainWindowLoggined.xaml" />
+    <Page Include="Old\MainWindowUnLogin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Old\StudentsOld.xaml" />
+    <Page Include="Old\VRManaging.xaml" />
+    <Page Include="test\test2\Page1.xaml" />
+    <Page Include="test\test2\Page2.xaml" />
+    <Page Include="test\test2\Window1.xaml" />
+    <Page Include="test\test2\Window2.xaml" />
+    <Page Include="test\Window1.xaml" />
+    <Page Include="View\CommonPage.xaml" />
+    <Page Include="View\LoginPage.xaml" />
+    <Page Include="View\StartPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -97,11 +166,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\BigManLogin.png" />
-    <Content Include="img\BigManLogin.svg" />
+    <Resource Include="img\BigManLogin.svg" />
+    <Resource Include="img\cases\breakLeg.jpg" />
+    <Resource Include="img\cases\foodPoisoning.png" />
+    <Resource Include="img\cases\insult.jpg" />
     <Content Include="img\thumbnails\ManLogin.svg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.6.0.5\build\Fody.targets" Condition="Exists('..\packages\Fody.6.0.5\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.6.0.5\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.0.5\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\PropertyChanged.Fody.3.2.1\build\PropertyChanged.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\PropertyChanged.Fody.3.2.1\build\PropertyChanged.Fody.props'))" />
+  </Target>
 </Project>

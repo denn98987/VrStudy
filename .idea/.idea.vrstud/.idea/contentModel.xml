@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\minio\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\minio\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_vrstud.288907681.00" t="ExcludeRecursive" />
+    <e p="C:\Users\minio\Documents\vrStud\vrStud" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="vrStud" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DB" t="Include">
+          <e p="Requests" t="Include">
+            <e p="AccountManage.cs" t="Include" />
+            <e p="GroupsManage.cs" t="Include" />
+            <e p="StudentsManage.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DelegateCommand.cs" t="Include" />
+        <e p="Exceptions" t="Include">
+          <e p="AuthoriseException.cs" t="Include" />
+        </e>
+        <e p="img" t="Include">
+          <e p="BigManLogin.png" t="Include" />
+          <e p="BigManLogin.svg" t="Include" />
+          <e p="cases" t="Include">
+            <e p="breakLeg.jpg" t="Include" />
+            <e p="foodPoisoning.png" t="Include" />
+            <e p="insult.jpg" t="Include" />
+          </e>
+          <e p="thumbnails" t="Include">
+            <e p="ManLogin.svg" t="Include" />
+          </e>
+        </e>
+        <e p="model" t="Include">
+          <e p="AccountDescription.cs" t="Include" />
+          <e p="AccountModerator.cs" t="Include" />
+          <e p="Group.cs" t="Include" />
+          <e p="Groups.cs" t="Include" />
+          <e p="IIdentifiable.cs" t="Include" />
+          <e p="IListItems.cs" t="Include" />
+          <e p="Student.cs" t="Include" />
+          <e p="Students.cs" t="Include" />
+        </e>
+        <e p="Navigator.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Old" t="Include">
+          <e p="ItemStudentsMarks.cs" t="Include" />
+          <e p="Link.cs" t="Include" />
+          <e p="LogIn.xaml" t="Include" />
+          <e p="LogIn.xaml.cs" t="Include" />
+          <e p="MainWindowLoggined.xaml" t="Include" />
+          <e p="MainWindowLoggined.xaml.cs" t="Include" />
+          <e p="MainWindowUnLogin.xaml" t="Include" />
+          <e p="MainWindowUnLogin.xaml.cs" t="Include" />
+          <e p="StudentsMarksCollection.cs" t="Include" />
+          <e p="StudentsOld.xaml" t="Include" />
+          <e p="StudentsOld.xaml.cs" t="Include" />
+          <e p="ToDoItem.cs" t="Include" />
+          <e p="VRManaging.xaml" t="Include" />
+          <e p="VRManaging.xaml.cs" t="Include" />
+        </e>
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="Annotations.cs" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="test" t="Include">
+          <e p="DelegateComand.cs" t="Include" />
+          <e p="ItemLink1.cs" t="Include" />
+          <e p="ItemToDo.cs" t="Include" />
+          <e p="test2" t="Include">
+            <e p="BaseModel.cs" t="Include" />
+            <e p="Item.cs" t="Include" />
+            <e p="ItemLink.cs" t="Include" />
+            <e p="Items.cs" t="Include" />
+            <e p="Page1.xaml" t="Include" />
+            <e p="Page1.xaml.cs" t="Include" />
+            <e p="Page2.xaml" t="Include" />
+            <e p="Page2.xaml.cs" t="Include" />
+            <e p="PageWrap.cs" t="Include" />
+            <e p="RelayCommand.cs" t="Include" />
+            <e p="Window1.xaml" t="Include" />
+            <e p="Window1.xaml.cs" t="Include" />
+            <e p="Window2.xaml" t="Include" />
+            <e p="Window2.xaml.cs" t="Include" />
+          </e>
+          <e p="ViewModel.cs" t="Include" />
+          <e p="ViewModelBase.cs" t="Include" />
+          <e p="Window1.xaml" t="Include" />
+          <e p="Window1.xaml.cs" t="Include" />
+        </e>
+        <e p="View" t="Include">
+          <e p="CommonPage.xaml" t="Include" />
+          <e p="CommonPage.xaml.cs" t="Include" />
+          <e p="LoginPage.xaml" t="Include" />
+          <e p="LoginPage.xaml.cs" t="Include" />
+          <e p="StartPage.xaml" t="Include" />
+          <e p="StartPage.xaml.cs" t="Include" />
+        </e>
+        <e p="ViewModel" t="Include">
+          <e p="CommonPViewModel.cs" t="Include" />
+          <e p="LoginViewModel.cs" t="Include" />
+          <e p="StartViewModel.cs" t="Include" />
+          <e p="ViewModelBase.cs" t="Include" />
+        </e>
+        <e p="vrstud.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="vrstud.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

@@ -3,7 +3,7 @@
 namespace vrstud
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    ///     Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow
     {
@@ -16,6 +16,12 @@ namespace vrstud
         {
             var LoginForm = new LogIn();
             LoginForm.ShowDialog();
+        }
+
+        private void Open_VR(object sender, RoutedEventArgs e)
+        {
+            var form = new VRManaging();
+            form.Show();
         }
     }
 }

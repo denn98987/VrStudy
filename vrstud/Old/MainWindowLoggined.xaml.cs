@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Windows;
 
@@ -6,7 +5,6 @@ namespace vrstud
 {
     public partial class MainWindowLoggined : Window
     {
-        public int CountGroups { get; set; } = 3;
         public MainWindowLoggined()
         {
             InitializeComponent();
@@ -14,43 +12,39 @@ namespace vrstud
             StudentsList.ItemsSource = CreateStudents();
         }
 
+        public int CountGroups { get; set; } = 3;
+
         private List<ToDoItem> CreateGroups()
         {
             var groups = new List<ToDoItem>();
             var dataGroups = GetGroupsData();
-            for (var i = 0; i < CountGroups; i++)
-            {
-                groups.Add(new ToDoItem{Title = dataGroups[i].Item1, Id = dataGroups[i].Item2});
-            }
+            for (var i = 0; i < CountGroups; i++) groups.Add(new ToDoItem {Title = dataGroups[i]});
 
             return groups;
         }
 
-        private static (string, int)[] GetGroupsData()
+        private static string[] GetGroupsData()
         {
-            return new[] {("РИ-280012", 0), ("РИ-280013", 1), ("РИ-280014", 2)};
+            return new[] {"РИ-280012", "РИ-280013", "РИ-280014"};
         }
-        
+
         private List<ToDoItem> CreateStudents()
         {
             var groups = new List<ToDoItem>();
             var dataGroups = GetStudentsData();
-            for (var i = 0; i < CountGroups; i++)
-            {
-                groups.Add(new ToDoItem{Title = dataGroups[i].Item1, Id = dataGroups[i].Item2});
-            }
+            for (var i = 0; i < CountGroups; i++) groups.Add(new ToDoItem {Title = dataGroups[i]});
 
             return groups;
         }
 
-        private static (string, int)[] GetStudentsData()
+        private static string[] GetStudentsData()
         {
-            return new[] {("Корабельников А. С.", 0), ("Плужник Е. А.", 1), ("Семенченко А. В.", 2)};
+            return new[] {"Корабельников А. С.", "Плужник Е. А.", "Семенченко А. В."};
         }
 
         private void ShowChangeGroup(object sender, RoutedEventArgs e)
         {
-            var form = new Students();
+            var form = new StudentsOld();
             form.Show();
         }
     }

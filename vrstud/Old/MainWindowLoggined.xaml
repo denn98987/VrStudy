@@ -42,17 +42,30 @@
         </Style>
         <Style x:Key="GreenBtn" TargetType="Button" BasedOn="{StaticResource Btn}">
             <Setter Property="Background" Value="#219653" />
-            <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+            <Setter Property="VerticalAlignment" Value="Bottom" />
         </Style>
         <Style x:Key="BlueBtn" TargetType="Button" BasedOn="{StaticResource Btn}">
             <Setter Property="Background" Value="#2F80ED" />
-            <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+        </Style>
+        <Style x:Key="RedBtn" TargetType="Button" BasedOn="{StaticResource Btn}">
+            <Setter Property="Background" Value="#EB5757" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
         </Style>
         <Style x:Key="ListBox" TargetType="ListBox">
-            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderThickness" Value="0" />
+        </Style>
+        <Style x:Key="TextBlock" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontFamily" Value="Roboto" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="VerticalAlignment" Value="Stretch" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
     </Window.Resources>
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -60,52 +73,58 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        
-        <Border  Grid.Column="0" Style="{StaticResource GroupBorder}" >
+
+        <Border Grid.Column="0" Style="{StaticResource GroupBorder}">
             <StackPanel x:Name="GroupsPanel" Margin="5">
                 <Label Content="ГРУППЫ" FontSize="24" FontFamily="Roboto" HorizontalContentAlignment="Center" />
                 <ListBox Style="{StaticResource ListBox}" Name="GroupsList">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
-                            <Label Content="{Binding Title}" HorizontalContentAlignment="Center"/>
-                            
+                            <Label Content="{Binding Title}" HorizontalContentAlignment="Center" />
+
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
-                <Button Content="ИЗМЕНИТЬ" Style="{StaticResource BlueBtn}"/>
+                <Button Content="ИЗМЕНИТЬ" Style="{StaticResource BlueBtn}" />
                 <Button Content="ДОБАВИТЬ" Style="{StaticResource GreenBtn}" />
             </StackPanel>
         </Border>
-        
-        <Border  Grid.Column="1" Style="{StaticResource GroupBorder}" >
+
+        <Border Grid.Column="1" Style="{StaticResource GroupBorder}">
             <StackPanel x:Name="SrudentsPanel" Margin="5">
                 <Label Content="СТУДЕНТЫ" FontSize="24" FontFamily="Roboto" HorizontalContentAlignment="Center" />
                 <ListBox Style="{StaticResource ListBox}" Name="StudentsList">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
-                            <Label Content="{Binding Title}" HorizontalContentAlignment="Center"/>
+                            <Label Content="{Binding Title}" HorizontalContentAlignment="Center" />
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
-                <Button Content="ИЗМЕНИТЬ" Style="{StaticResource BlueBtn}" Click="ShowChangeGroup"/>
+                <Button Content="ИЗМЕНИТЬ" Style="{StaticResource BlueBtn}" Click="ShowChangeGroup" />
                 <Button Content="ДОБАВИТЬ" Style="{StaticResource GreenBtn}" />
             </StackPanel>
         </Border>
-        <Border  Grid.Column="2" Style="{StaticResource GroupBorder}" BorderBrush="#219653">
+        <Border Grid.Column="2" Style="{StaticResource GroupBorder}" BorderBrush="#219653">
             <StackPanel x:Name="TeacherPanel" Margin="5">
                 <Grid>
                     <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
                         <RowDefinition Height="100" />
                         <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Label Content="Гость" FontSize="18" FontFamily="Roboto" HorizontalContentAlignment="Left" Grid.Row="0" />
-                    <Button Content="ВХОД" Style="{StaticResource GreenBtn}" Grid.Row="1" />
+                    <Label Content="Александров А. С." FontSize="16" FontFamily="Roboto"
+                           HorizontalContentAlignment="Left" Grid.Row="0" />
+                    <TextBlock Text="Доцент кафедры микробиолгоии" Style="{StaticResource TextBlock}"
+                               Grid.Row="1" />
+                    <Button Content="ИЗМЕНИТЬ" Style="{StaticResource BlueBtn}" Grid.Row="2" />
+                    <Button Content="ВЫХОД" Style="{StaticResource RedBtn}" Grid.Row="3" />
                 </Grid>
             </StackPanel>
         </Border>
-        <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource GreenBtn}" Content="Запустить VR"></Button>
+        <Button Grid.Row="2" Grid.Column="3" Style="{StaticResource GreenBtn}" Content="Запустить VR" />
     </Grid>
 </Window>

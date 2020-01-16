@@ -8,14 +8,14 @@
         Title="LogIn" Height="450" Width="525" Background="White">
     <Window.Resources>
         <Style x:Key="Input" TargetType="TextBox">
-            <Setter Property="BorderBrush" Value="#E8252526"/>
-            <Setter Property="Height" Value="40"/>
-            <Setter Property="Width" Value="200"/>
-            <Setter Property="TextAlignment" Value="Center"/>
-            <Setter Property="Padding" Value="10"/>
+            <Setter Property="BorderBrush" Value="#E8252526" />
+            <Setter Property="Height" Value="40" />
+            <Setter Property="Width" Value="200" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="Padding" Value="10" />
             <Setter Property="FontFamily" Value="Roboto" />
             <Setter Property="FontSize" Value="18" />
-            <Setter Property="Background" Value="#E0E0E0"/>
+            <Setter Property="Background" Value="#E0E0E0" />
         </Style>
         <Style x:Key="Btn" TargetType="Button">
             <Setter Property="MaxWidth" Value="200" />
@@ -30,21 +30,21 @@
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <Image Source="img/BigManLogin.png" 
+        <Image Source="img/BigManLogin.png"
                Width="202" Height="202"
-               Grid.Row="0"/>
+               Grid.Row="0" />
         <TextBox Grid.Row="1"
-                 Style="{StaticResource Input}" 
+                 Style="{StaticResource Input}"
                  Text="Логин" />
-        <TextBox Grid.Row="2" Style="{StaticResource Input}" 
-                 Text="Пароль"/>
+        <TextBox Grid.Row="2" Style="{StaticResource Input}"
+                 Text="Пароль" />
         <Button Grid.Row="3" Content="ВОЙТИ"
                 Style="{StaticResource Btn}"
-                Background="#6979F8" Click="Login"/>
+                Background="#6979F8" Click="Login" />
     </Grid>
 </Window>
