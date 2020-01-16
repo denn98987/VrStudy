@@ -6,6 +6,7 @@
     <e p="C:\Users\minio\Documents\vrStud\vrStud" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="vrStud" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
         <e p="App.config" t="Include" />
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />

@@ -1,76 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="725eaf4f-35f5-4e9b-9a32-9f97dac3c083" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/DB/Requests/AccountManage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/DB/Requests/GroupsManage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/DB/Requests/StudentsManage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/DelegateCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Exceptions/AuthoriseException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Model/AccountDescription.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Model/AccountModerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Model/Group.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Model/Groups.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Model/IIdentifiable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Model/IListItems.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Model/Student.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Model/Students.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Navigator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Old/ItemStudentsMarks.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Old/StudentsMarksCollection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Old/StudentsOld.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/Old/StudentsOld.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/View/CommonPage.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/View/LoginPage.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/View/StartPage.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/ViewModel/CommonPViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/ViewModel/LoginViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/ViewModel/StartViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/ViewModel/ViewModelBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/bin/Debug/vrstud.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/bin/Debug/vrstud.exe.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/bin/Debug/vrstud.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/App.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/App.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/GeneratedInternalTypeHelper.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/LogIn.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/MainWindowLoggined.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/MainWindowUnLogin.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/Students.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.Properties.Resources.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.csproj.GenerateResource.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.g.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud_Content.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud_Content.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud_MarkupCompile.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/obj/Debug/vrstud_MarkupCompile.lref" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vrstud/test/ItemToDo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/App.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/App.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/Link.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/Link.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/LogIn.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/LogIn.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/LogIn.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/LogIn.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/MainWindowLoggined.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/MainWindowLoggined.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/MainWindowLoggined.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/MainWindowLoggined.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/MainWindowUnLogin.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/MainWindowUnLogin.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/MainWindowUnLogin.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/MainWindowUnLogin.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/Students.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/Students.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/ToDoItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/ToDoItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/VRManaging.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/VRManaging.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrstud/VRManaging.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/Old/VRManaging.xaml.cs" afterDir="false" />
+    <list default="true" id="725eaf4f-35f5-4e9b-9a32-9f97dac3c083" name="Default Changelist" comment="Sec">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.vrstud/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vrstud/vrstud.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/vrstud/vrstud.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -152,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vrstud/Model/AccountModerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="120">
               <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding>
                 <marker date="1579183674338" expanded="false" signature="6:30" ph="..." />
@@ -166,6 +99,15 @@
                 <marker date="1579183674338" expanded="true" signature="779:831" ph="{...}" />
                 <marker date="1579183674338" expanded="true" signature="887:1016" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vrstud/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -247,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vrstud/test/DelegateComand.cs" />
         <option value="$PROJECT_DIR$/vrstud/test/ItemLink.cs" />
         <option value="$PROJECT_DIR$/vrstud/test/ItemToDo.cs" />
         <option value="$PROJECT_DIR$/vrstud/test/ViewModel.cs" />
@@ -298,6 +239,7 @@
         <option value="$PROJECT_DIR$/vrstud/View/CommonPage.xaml" />
         <option value="$PROJECT_DIR$/vrstud/View/CommonPage.xaml.cs" />
         <option value="$PROJECT_DIR$/vrstud/Model/AccountModerator.cs" />
+        <option value="$PROJECT_DIR$/vrstud/.gitignore" />
       </list>
     </option>
   </component>
@@ -331,12 +273,6 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="vrstud" type="24d0babc:SolutionExplorerModelNode" />
               <item name="vrstud" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="vrstud" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="vrstud" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="model" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -427,7 +363,7 @@
       <workItem from="1578557182008" duration="8785000" />
       <workItem from="1578736167349" duration="7379000" />
       <workItem from="1578834420963" duration="9576000" />
-      <workItem from="1579176865650" duration="5630000" />
+      <workItem from="1579176865650" duration="8647000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1576226147322</created>
@@ -436,13 +372,20 @@
       <option name="project" value="LOCAL" />
       <updated>1576226147322</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sec">
+      <created>1579183758120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579183758120</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136479000" />
+    <option name="totallyTimeSpent" value="139496000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -453,26 +396,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924812" visible="true" weight="0.27914354" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924812" visible="true" weight="0.27914354" />
       <window_info id="Structure" order="1" sideWeight="0.50075185" side_tool="true" weight="0.27438542" />
       <window_info id="Favorites" order="2" sideWeight="0.50075185" side_tool="true" weight="0.27438542" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920633" visible="true" weight="0.3263158" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49920633" weight="0.3263158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39849624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32882884" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32781956" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.32781956" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32882884" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32932332" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" x="213" y="220" width="848" height="382" id="XAML Preview" order="12" type="FLOATING" weight="0.518018" />
-      <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.32882884" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32882884" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.32781956" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.32781956" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50079364" side_tool="true" weight="0.3263158" />
       <window_info anchor="bottom" id="Build" order="16" weight="0.3263158" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -530,7 +472,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="Sec" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sec" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,13 +499,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vrstud/Old/Link.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vrstud/test/test2/Window2.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -697,9 +633,6 @@
           <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vrstud/packages.config">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/vrstud/test/Window1.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -1088,7 +1021,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vrstud/Model/AccountModerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="120">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
             <marker date="1579183674338" expanded="false" signature="6:30" ph="..." />
@@ -1099,6 +1032,16 @@
             <marker date="1579183674338" expanded="true" signature="779:831" ph="{...}" />
             <marker date="1579183674338" expanded="true" signature="887:1016" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/packages.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vrstud/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
