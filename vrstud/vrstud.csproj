@@ -69,53 +69,7 @@
     <Compile Include="model\Student.cs" />
     <Compile Include="model\Students.cs" />
     <Compile Include="Navigator.cs" />
-    <Compile Include="Old\ItemStudentsMarks.cs" />
-    <Compile Include="Old\Link.cs" />
-    <Compile Include="Old\LogIn.xaml.cs">
-      <DependentUpon>LogIn.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Old\MainWindowLoggined.xaml.cs">
-      <DependentUpon>MainWindowLoggined.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Old\MainWindowUnLogin.xaml.cs">
-      <DependentUpon>MainWindowUnLogin.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Old\StudentsOld.xaml.cs">
-      <DependentUpon>StudentsOld.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Old\StudentsMarksCollection.cs" />
-    <Compile Include="Old\ToDoItem.cs" />
-    <Compile Include="Old\VRManaging.xaml.cs">
-      <DependentUpon>VRManaging.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="test\DelegateComand.cs" />
-    <Compile Include="test\ItemLink1.cs" />
-    <Compile Include="test\ItemToDo.cs" />
-    <Compile Include="test\test2\BaseModel.cs" />
-    <Compile Include="test\test2\Item.cs" />
-    <Compile Include="test\test2\ItemLink.cs" />
-    <Compile Include="test\test2\Items.cs" />
-    <Compile Include="test\test2\Page1.xaml.cs">
-      <DependentUpon>Page1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="test\test2\Page2.xaml.cs">
-      <DependentUpon>Page2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="test\test2\PageWrap.cs" />
-    <Compile Include="test\test2\RelayCommand.cs" />
-    <Compile Include="test\test2\Window1.xaml.cs">
-      <DependentUpon>Window1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="test\test2\Window2.xaml.cs">
-      <DependentUpon>Window2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="test\ViewModel.cs" />
-    <Compile Include="test\ViewModelBase.cs" />
-    <Compile Include="test\Window1.xaml.cs">
-      <DependentUpon>Window1.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ViewModel\CommonPViewModel.cs" />
     <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\StartViewModel.cs" />
@@ -133,19 +87,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Old\LogIn.xaml" />
-    <Page Include="Old\MainWindowLoggined.xaml" />
-    <Page Include="Old\MainWindowUnLogin.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Old\StudentsOld.xaml" />
-    <Page Include="Old\VRManaging.xaml" />
-    <Page Include="test\test2\Page1.xaml" />
-    <Page Include="test\test2\Page2.xaml" />
-    <Page Include="test\test2\Window1.xaml" />
-    <Page Include="test\test2\Window2.xaml" />
-    <Page Include="test\Window1.xaml" />
     <Page Include="View\CommonPage.xaml" />
     <Page Include="View\LoginPage.xaml" />
     <Page Include="View\StartPage.xaml" />
@@ -174,7 +115,6 @@
     <Resource Include="img\cases\breakLeg.jpg" />
     <Resource Include="img\cases\foodPoisoning.png" />
     <Resource Include="img\cases\insult.jpg" />
-    <Content Include=".gitignore" />
     <Content Include="img\thumbnails\ManLogin.svg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

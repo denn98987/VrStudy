@@ -6,7 +6,6 @@
     <e p="C:\Users\minio\Documents\vrStud\vrStud" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="vrStud" t="IncludeRecursive">
-        <e p=".gitignore" t="Include" />
         <e p="App.config" t="Include" />
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
@@ -46,53 +45,12 @@
         </e>
         <e p="Navigator.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
-        <e p="Old" t="Include">
-          <e p="ItemStudentsMarks.cs" t="Include" />
-          <e p="Link.cs" t="Include" />
-          <e p="LogIn.xaml" t="Include" />
-          <e p="LogIn.xaml.cs" t="Include" />
-          <e p="MainWindowLoggined.xaml" t="Include" />
-          <e p="MainWindowLoggined.xaml.cs" t="Include" />
-          <e p="MainWindowUnLogin.xaml" t="Include" />
-          <e p="MainWindowUnLogin.xaml.cs" t="Include" />
-          <e p="StudentsMarksCollection.cs" t="Include" />
-          <e p="StudentsOld.xaml" t="Include" />
-          <e p="StudentsOld.xaml.cs" t="Include" />
-          <e p="ToDoItem.cs" t="Include" />
-          <e p="VRManaging.xaml" t="Include" />
-          <e p="VRManaging.xaml.cs" t="Include" />
-        </e>
         <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
           <e p="Annotations.cs" t="Include" />
           <e p="AssemblyInfo.cs" t="Include" />
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
-        </e>
-        <e p="test" t="Include">
-          <e p="DelegateComand.cs" t="Include" />
-          <e p="ItemLink1.cs" t="Include" />
-          <e p="ItemToDo.cs" t="Include" />
-          <e p="test2" t="Include">
-            <e p="BaseModel.cs" t="Include" />
-            <e p="Item.cs" t="Include" />
-            <e p="ItemLink.cs" t="Include" />
-            <e p="Items.cs" t="Include" />
-            <e p="Page1.xaml" t="Include" />
-            <e p="Page1.xaml.cs" t="Include" />
-            <e p="Page2.xaml" t="Include" />
-            <e p="Page2.xaml.cs" t="Include" />
-            <e p="PageWrap.cs" t="Include" />
-            <e p="RelayCommand.cs" t="Include" />
-            <e p="Window1.xaml" t="Include" />
-            <e p="Window1.xaml.cs" t="Include" />
-            <e p="Window2.xaml" t="Include" />
-            <e p="Window2.xaml.cs" t="Include" />
-          </e>
-          <e p="ViewModel.cs" t="Include" />
-          <e p="ViewModelBase.cs" t="Include" />
-          <e p="Window1.xaml" t="Include" />
-          <e p="Window1.xaml.cs" t="Include" />
         </e>
         <e p="View" t="Include">
           <e p="CommonPage.xaml" t="Include" />
