@@ -10,7 +10,7 @@ namespace vrstud
 
         public AuthoriseException(string msg)
         {
-            throw new Exception(msg, this);
+//            throw new Exception(msg, this);
         }
     }
 }

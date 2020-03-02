@@ -16,7 +16,7 @@ namespace vrstud.DB
             {
                 new Group {Id = 0, Title = "РИ-280012"},
                 new Group {Id = 1, Title = "РИ-280013"},
-                new Group {Id = 0, Title = "РИ-280012"}
+                new Group {Id = 2, Title = "РИ-280014"}
             };
 
             #endregion

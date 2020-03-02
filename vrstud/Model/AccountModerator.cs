@@ -15,7 +15,7 @@ namespace vrstud
                 throw new Exception($"System was authorized next account:{NameAccount}");
             if (GetPassword(Name) != Password)
                 throw new AuthoriseException();
-            if(Name == "")
+            if(Name == "" || Name is null)
                 throw new AuthoriseException();
             NameAccount = Name;
         }

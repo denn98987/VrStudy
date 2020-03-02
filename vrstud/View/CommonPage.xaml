@@ -80,8 +80,9 @@
             <StackPanel x:Name="GroupsPanel" Margin="5">
                 <Label Content="ГРУППЫ" FontSize="24" FontFamily="Roboto" HorizontalContentAlignment="Center" />
                 <ListBox Style="{StaticResource ListBox}" Name="GroupsList" 
+                         SelectedItem="{Binding SelectedGroup}"
                          DisplayMemberPath="Title" SelectedValuePath="Id"/>
-                <Button Content="ИЗМЕНИТЬ" Style="{StaticResource BlueBtn}" />
+                <Button Content="ИЗМЕНИТЬ" Style="{StaticResource BlueBtn}" Command="{Binding Path=OpenGroup}" />
                 <Button Content="ДОБАВИТЬ" Style="{StaticResource GreenBtn}" />
             </StackPanel>
         </Border>

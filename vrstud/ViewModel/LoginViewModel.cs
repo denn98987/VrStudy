@@ -38,10 +38,9 @@ namespace vrstud
             }
             catch (AuthoriseException e)
             {
-                MessageBox.Show("Неправильный пароль", "LoginError", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Неправильный логин или пароль", "LoginError", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
-
             Navigator.CleanAllBackPages();
             Navigator.nav.Navigate(new CommonPage());
         }

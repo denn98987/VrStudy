@@ -7,7 +7,7 @@ namespace vrstud.View
         private CommonPViewModel ViewModel = new CommonPViewModel();
         public CommonPage()
         {
-//            DataContext = ViewModel;
+            DataContext = ViewModel;
             InitializeComponent();
             GroupsList.ItemsSource = ViewModel.Groups;
             StudentsList.ItemsSource = ViewModel.Students;
